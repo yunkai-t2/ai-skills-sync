@@ -1,0 +1,6 @@
+[Unit]
+Description=Sync personal AI skills across Claude, Cursor, Copilot, and Codex
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/ai-skills-sync
