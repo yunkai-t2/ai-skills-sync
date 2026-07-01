@@ -18,9 +18,9 @@ from typing import Any
 DEFAULT_CONFIG: dict[str, Any] = {
     "version": 1,
     "endpoints": [
-        {"name": "claude", "path": "~/.claude/skills", "write": True},
+        {"name": "claude", "path": "~/.claude/skills", "write": True, "exclude": [".system"]},
         {"name": "cursor", "path": "~/.cursor/skills", "write": True},
-        {"name": "copilot", "path": "~/.copilot/skills", "write": True},
+        {"name": "copilot", "path": "~/.copilot/skills", "write": True, "exclude": [".system"]},
         {
             "name": "codex",
             "path": "~/.codex/skills",
