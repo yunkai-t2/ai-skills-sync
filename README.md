@@ -10,7 +10,7 @@ Sync personal `SKILL.md` directories across AI coding assistants:
 ## Installation
 
 ```sh
-pip install ai-skills-sync
+pip install git+https://github.com/yunkai-t2/ai-skills-sync.git
 ```
 
 ## Usage
